@@ -3,24 +3,18 @@
         "nome": "FURG",
         "nome_detalhado": "Universidade Federal do Rio Grande",
         "imagem": "parcerias/parcerias/furg.jpg",
-        "descricao": "A Instituição B contribui com análises estatísticas avançadas e metodologias inovadoras para nossos projetos."
+        "descricao": "A Universidade Federal do Rio Grande (FURG) é a instituição que acolhe e promove o desenvolvimento do Radar do Desemprego. Por meio de sua excelência em ensino, pesquisa e extensão, a FURG fornece a base acadêmica necessária para a produção científica de qualidade voltada ao desenvolvimento regional e nacional."
     },
     {
         "nome": "PPGE-FURG",
         "nome_detalhado": "Programa de Pós-Graduação em Economia Aplicada da FURG",
         "imagem": "parcerias/parcerias/ppge2.png",
-        "descricao": "O PPGE-FURG colabora com o Radar do Desemprego em pesquisas avançadas sobre o mercado de trabalho e desenvolvimento econômico."
+        "descricao": "O Programa de Pós-Graduação em Economia Aplicada (PPGE-FURG) reúne pesquisadores e estudantes dedicados a investigar temas econômicos relevantes, como o mercado de trabalho, políticas públicas e desenvolvimento econômico. Como estudantes do PPGE, aplicamos métodos econométricos e análises avançadas para gerar contribuições significativas através do Radar do Desemprego."
     },
     {
-        "nome": "Instituição C",
-        "nome_detalhado": "Centro de Estudos Econômicos - C",
-        "imagem": "",
-        "descricao": "A Instituição C fornece dados e relatórios detalhados sobre desemprego em diferentes setores da economia."
-    },
-    {
-        "nome": "Instituição D",
-        "nome_detalhado": "Associação de Políticas Públicas - D",
-        "imagem": "",
-        "descricao": "A Instituição D apoia no desenvolvimento de políticas públicas baseadas em evidências científicas."
+        "nome": "A Hora do Sul",
+        "nome_detalhado": "A Hora do Sul - Diário a Serviço do Desenvolvimento Regional",
+        "imagem": "parcerias/parcerias/AHoraDoSul.jpeg",
+        "descricao": "O jornal A Hora do Sul é um parceiro essencial na divulgação de nossas contribuições. Como um veículo comprometido com o desenvolvimento regional, A Hora do Sul amplia o alcance das pesquisas realizadas pelo Radar do Desemprego, disseminando informações relevantes e fomentando o debate público sobre o mercado de trabalho e questões socioeconômicas."
     }
 ]
