@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+    <link rel="stylesheet" href="quem_somos/quem_somos.css">
+</head>
+
+<!---------------------------------------------------------------------------------------------------------------->
+<!-- header e nav -->
+<header>
+    <link rel="stylesheet" href="header_footer/header.css">
+    <div class="header-container">
+        <a href="index.html">
+            <img src="header_footer/logo/Newlogo_limpo.png" alt="Logo" class="logo">
+        </a>
+        <h1>RADAR DO DESEMPREGO</h1>
+    </div>
+</header>
+<nav>
+    <a href="index.html">Página inicial</a>
+    <a href="quem_somos.html">Quem somos</a>
+    <div class="dropdown">
+        <a href="#">Pesquisas</a>
+         <div class="dropdown-content">
+            <a href="#pesquisa1">Desocupação</a>
+            <a href="#pesquisa2">Sei lá</a>
+            <a href="#pesquisa3">Sei lá o quê</a>
+        </div>
+    </div>
+    <a href="publicacoes.html">Publicações</a>
+    <a href="parcerias.html">Associados</a>
+</nav>
+<!---------------------------------------------------------------------------------------------------------------->
+
+<body>
+
+    <main>
+        <section id="membros-ativos">
+            <div id="titulo-container">
+                <h2 id="titulo-membros-ativos" onclick="mostrarMembros()">Integrantes<span class="seta">&#9660;</span></h2>
+            </div>
+            <div id="navegacao-topo" class="nav-buttons" style="display: none;"></div>
+            <ul id="lista-ativos" class="membros-list"></ul>
+            <div id="navegacao-rodape" class="nav-buttons" style="display: none;"></div>
+        </section>
+    </main>
+
+<!-- footer.html -->
+<footer>
+    <link rel="stylesheet" href="header_footer/footer.css">
+    <p>E-mail: contato@furg.br</p>
+    <p>&copy; 2024 Radar do Desemprego. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Tá bugada essa bosta
+    <script src="../header_footer/header_footer.js"></script>
+-->
+    <script src="quem_somos/quem_somos.js"></script>
+</body>
+</html>

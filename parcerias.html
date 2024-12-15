@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcerias - Radar do Desemprego</title>
+    <link rel="stylesheet" href="parcerias/parcerias.css">
+</head>
+
+<!---------------------------------------------------------------------------------------------------------------->
+<!-- header e nav -->
+<header>
+    <link rel="stylesheet" href="header_footer/header.css">
+    <div class="header-container">
+        <a href="index.html">
+            <img src="header_footer/logo/Newlogo_limpo.png" alt="Logo" class="logo">
+        </a>
+        <h1>RADAR DO DESEMPREGO</h1>
+    </div>
+</header>
+<nav>
+    <a href="index.html">Página inicial</a>
+    <a href="quem_somos.html">Quem somos</a>
+    <div class="dropdown">
+        <a href="#">Pesquisas</a>
+         <div class="dropdown-content">
+            <a href="#pesquisa1">Desocupação</a>
+            <a href="#pesquisa2">Sei lá</a>
+            <a href="#pesquisa3">Sei lá o quê</a>
+        </div>
+    </div>
+    <a href="publicacoes.html">Publicações</a>
+    <a href="parcerias.html">Associados</a>
+</nav>
+<!---------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <div id="header"></div>
+    <main>
+        <section id="parceiros">
+            <h1>Instituições Associadas</h1>
+            <p>Estamos orgulhosos de colaborar com instituições que compartilham nossa missão. Clique em um parceiro para saber mais:</p>
+            <div class="parceiros-container" id="parceiros-container">
+                <!-- Os parceiros serão inseridos dinamicamente pelo JavaScript -->
+            </div>
+        </section>
+
+        <section id="parceiro-detalhes" style="display: none;">
+            <div class="detalhes-cartao">
+                <h2 class="detalhes-titulo"></h2>
+                <p class="detalhes-descricao"></p>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+<!-- Tá bugada essa bosta
+    <script src="../header_footer/header_footer.js"></script>
+-->
+    <script src="parcerias/parcerias.js"></script>
+</body>
+</html>

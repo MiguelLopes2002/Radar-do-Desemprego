@@ -1,0 +1,108 @@
+/* Título da Página */
+.page-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.page-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilo da seção de publicações */
+.publications {
+    padding: 20px;
+}
+
+.publication-category {
+    margin-bottom: 15px;
+}
+
+.publication-category h2 {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.arrow {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* Transição para as setas */
+.hidden + .arrow {
+    transform: rotate(90deg);
+}
+
+/* Estilo dos itens de publicação */
+.publication-item {
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.publication-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.publication-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.publication-item a {
+    font-size: 0.9em;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-next, .btn-prev {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover, .btn-prev:hover {
+    background-color: #005bb5;
+}
+
+.btn-next:disabled, .btn-prev:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

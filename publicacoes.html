@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisas Realizadas</title>
+    <link rel="stylesheet" href="publicacoes/publicacoes.css">
+</head>
+
+<!---------------------------------------------------------------------------------------------------------------->
+<!-- header e nav -->
+<header>
+    <link rel="stylesheet" href="header_footer/header.css">
+    <div class="header-container">
+        <a href="index.html">
+            <img src="header_footer/logo/Newlogo_limpo.png" alt="Logo" class="logo">
+        </a>
+        <h1>RADAR DO DESEMPREGO</h1>
+    </div>
+</header>
+<nav>
+    <a href="index.html">Página inicial</a>
+    <a href="quem_somos.html">Quem somos</a>
+    <div class="dropdown">
+        <a href="#">Pesquisas</a>
+         <div class="dropdown-content">
+            <a href="#pesquisa1">Desocupação</a>
+            <a href="#pesquisa2">Sei lá</a>
+            <a href="#pesquisa3">Sei lá o quê</a>
+        </div>
+    </div>
+    <a href="publicacoes.html">Publicações</a>
+    <a href="parcerias.html">Associados</a>
+</nav>
+<!---------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <div id="header"></div>
+
+    <div class="page-header">
+        <h1>Publicações Realizadas</h1>
+        <p>Nossos artigos, relatórios e pesquisas recentes.</p>
+    </div>
+
+    <!-- Seções de Publicações por Tipo -->
+    <section class="publications">
+        <!-- Cada categoria com identificador único -->
+        <div class="publication-category" id="congress">
+            <h2 onclick="toggleSection('congressPublications')">Publicação em Anais de Congresso <span class="arrow">▶</span></h2>
+            <div id="congressPublications" class="hidden"></div>
+        </div>
+        
+        <div class="publication-category" id="journal">
+            <h2 onclick="toggleSection('journalPublications')">Publicação em Revista <span class="arrow">▶</span></h2>
+            <div id="journalPublications" class="hidden"></div>
+        </div>
+
+        <div class="publication-category" id="abstract">
+            <h2 onclick="toggleSection('abstractPublications')">Publicação de Resumo <span class="arrow">▶</span></h2>
+            <div id="abstractPublications" class="hidden"></div>
+        </div>
+
+        <div class="publication-category" id="report">
+            <h2 onclick="toggleSection('reportPublications')">Relatórios Técnicos <span class="arrow">▶</span></h2>
+            <div id="reportPublications" class="hidden"></div>
+        </div>
+    </section>
+
+<!-- footer.html -->
+<footer>
+    <link rel="stylesheet" href="header_footer/footer.css">
+    <p>E-mail: contato@furg.br</p>
+    <p>&copy; 2024 Radar do Desemprego. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Tá bugada essa bosta
+    <script src="../header_footer/header_footer.js"></script>
+-->
+    <script src="publicacoes/publicacoes.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "FURG",
+        "nome_detalhado": "Universidade Federal do Rio Grande",
+        "imagem": "parcerias/parcerias/furg.jpg",
+        "descricao": "A Instituição B contribui com análises estatísticas avançadas e metodologias inovadoras para nossos projetos."
+    },
+    {
+        "nome": "PPGE-FURG",
+        "nome_detalhado": "Programa de Pós-Graduação em Economia Aplicada da FURG",
+        "imagem": "parcerias/parcerias/ppge2.png",
+        "descricao": "O PPGE-FURG colabora com o Radar do Desemprego em pesquisas avançadas sobre o mercado de trabalho e desenvolvimento econômico."
+    },
+    {
+        "nome": "Instituição C",
+        "nome_detalhado": "Centro de Estudos Econômicos - C",
+        "imagem": "",
+        "descricao": "A Instituição C fornece dados e relatórios detalhados sobre desemprego em diferentes setores da economia."
+    },
+    {
+        "nome": "Instituição D",
+        "nome_detalhado": "Associação de Políticas Públicas - D",
+        "imagem": "",
+        "descricao": "A Instituição D apoia no desenvolvimento de políticas públicas baseadas em evidências científicas."
+    }
+]

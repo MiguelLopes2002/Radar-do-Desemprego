@@ -1,0 +1,130 @@
+{
+    "congress": [
+        {
+            "title": "Desafios do Mercado de Trabalho no Rio Grande do Sul",
+            "description": "Discussão sobre as barreiras enfrentadas pelos trabalhadores no mercado gaúcho nos últimos 10 anos.",
+            "date": "Publicado em 12/05/2022",
+            "file": "trabalhos/desafios_mercado_trabalho_rgs.pdf"
+        },
+        {
+            "title": "Desemprego Jovem no Rio Grande do Sul",
+            "description": "Análise das taxas de desemprego entre jovens de 18 a 29 anos no estado.",
+            "date": "Publicado em 10/08/2021",
+            "file": "trabalhos/desemprego_jovem_rgs.pdf"
+        },
+        {
+            "title": "Impactos da Crise Econômica no Mercado de Trabalho Gaúcho",
+            "description": "Avaliação das mudanças nas taxas de emprego durante a crise econômica no estado.",
+            "date": "Publicado em 01/11/2020",
+            "file": "trabalhos/crise_mercado_trabalho_rgs.pdf"
+        },
+        {
+            "title": "Efeitos do Salário Mínimo no Desemprego no RS",
+            "description": "Estudo sobre o impacto do aumento do salário mínimo nas taxas de desemprego do estado.",
+            "date": "Publicado em 25/03/2021",
+            "file": "trabalhos/salario_minimo_desemprego_rgs.pdf"
+        },
+        {
+            "title": "Transformações no Emprego Rural no Rio Grande do Sul",
+            "description": "Análise das mudanças no mercado de trabalho rural e seus desafios no estado.",
+            "date": "Publicado em 15/07/2021",
+            "file": "trabalhos/emprego_rural_rgs.pdf"
+        }
+    ],
+    "journal": [
+        {
+            "title": "Efeitos da Automação no Emprego Gaúcho",
+            "description": "Estudo sobre como a automação industrial impactou o mercado de trabalho no estado.",
+            "date": "Publicado em 20/09/2020",
+            "file": "trabalhos/automacao_emprego_rgs.pdf"
+        },
+        {
+            "title": "Disparidades Regionais no Desemprego do Rio Grande do Sul",
+            "description": "Pesquisa sobre as diferenças nas taxas de desemprego entre as regiões Norte, Centro e Sul do estado.",
+            "date": "Publicado em 15/03/2021",
+            "file": "trabalhos/disparidades_regionais_rgs.pdf"
+        },
+        {
+            "title": "Desemprego Feminino no Rio Grande do Sul",
+            "description": "Uma análise das disparidades de gênero no mercado de trabalho gaúcho.",
+            "date": "Publicado em 08/10/2021",
+            "file": "trabalhos/desemprego_feminino_rgs.pdf"
+        },
+        {
+            "title": "Setores Mais Resilientes ao Desemprego no RS",
+            "description": "Exploração dos setores econômicos menos impactados por crises no estado.",
+            "date": "Publicado em 18/06/2022",
+            "file": "trabalhos/setores_resilientes_rgs.pdf"
+        },
+        {
+            "title": "Migração e Suas Relações com o Mercado de Trabalho no RS",
+            "description": "Estudo sobre como fluxos migratórios internos e externos afetam o emprego no estado.",
+            "date": "Publicado em 25/01/2023",
+            "file": "trabalhos/migracao_mercado_trabalho_rgs.pdf"
+        }
+    ],
+    "abstract": [
+        {
+            "title": "Impacto do Ensino Técnico no Combate ao Desemprego",
+            "description": "Uma análise do papel das escolas técnicas na redução do desemprego no Rio Grande do Sul.",
+            "date": "Publicado em 30/06/2022",
+            "file": "trabalhos/impacto_ensino_tecnico.pdf"
+        },
+        {
+            "title": "Setores Mais Afetados pelo Desemprego na Pandemia",
+            "description": "Resumo sobre os setores econômicos mais atingidos pelo desemprego no estado durante a crise da COVID-19.",
+            "date": "Publicado em 05/01/2023",
+            "file": "trabalhos/setores_afetados_pandemia.pdf"
+        },
+        {
+            "title": "Influência da Educação Superior no Emprego Gaúcho",
+            "description": "Uma análise sobre como o nível superior de educação impacta as taxas de emprego no estado.",
+            "date": "Publicado em 15/05/2022",
+            "file": "trabalhos/educacao_superior_emprego_rgs.pdf"
+        },
+        {
+            "title": "Trabalho Informal no Rio Grande do Sul: Uma Visão Atual",
+            "description": "Resumo dos desafios e tendências do trabalho informal no estado.",
+            "date": "Publicado em 12/02/2023",
+            "file": "trabalhos/trabalho_informal_rgs.pdf"
+        },
+        {
+            "title": "Impacto da Exportação no Mercado de Trabalho Rural do RS",
+            "description": "Exploração dos efeitos das exportações no setor agrícola no estado.",
+            "date": "Publicado em 30/09/2021",
+            "file": "trabalhos/exportacao_mercado_rural_rgs.pdf"
+        }
+    ],
+    "report": [
+        {
+            "title": "Relatório sobre a Informalidade no Mercado de Trabalho Gaúcho",
+            "description": "Um estudo detalhado sobre o aumento da informalidade no mercado de trabalho do Rio Grande do Sul.",
+            "date": "Publicado em 18/07/2022",
+            "file": "trabalhos/informalidade_rgs.pdf"
+        },
+        {
+            "title": "Análise das Políticas Públicas para Redução do Desemprego no Rio Grande do Sul",
+            "description": "Relatório sobre a eficácia de programas públicos de geração de emprego no estado.",
+            "date": "Publicado em 12/11/2021",
+            "file": "trabalhos/politicas_publicas_rgs.pdf"
+        },
+        {
+            "title": "Relatório de Tendências do Mercado de Trabalho Gaúcho",
+            "description": "Projeções e análises sobre os caminhos futuros do mercado de trabalho no estado.",
+            "date": "Publicado em 05/03/2023",
+            "file": "trabalhos/tendencias_mercado_rgs.pdf"
+        },
+        {
+            "title": "Impacto do Comércio Exterior no Desemprego do RS",
+            "description": "Estudo sobre como o comércio exterior influenciou as taxas de emprego no estado.",
+            "date": "Publicado em 01/08/2020",
+            "file": "trabalhos/comercio_exterior_rgs.pdf"
+        },
+        {
+            "title": "Relação entre Desenvolvimento Tecnológico e Emprego no RS",
+            "description": "Relatório sobre como a tecnologia tem remodelado o mercado de trabalho gaúcho.",
+            "date": "Publicado em 25/06/2022",
+            "file": "trabalhos/tecnologia_emprego_rgs.pdf"
+        }
+    ]
+}

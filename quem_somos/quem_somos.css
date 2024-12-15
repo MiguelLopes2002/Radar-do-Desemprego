@@ -1,0 +1,149 @@
+#titulo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Destaque no título Membros Ativos */
+h2#titulo-membros-ativos {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 2em;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito hover: Aumentar o tamanho e destacar fundo */
+h2#titulo-membros-ativos:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+    border-color: #007BFF;
+    color: #007BFF;
+}
+
+/* Estilo da seta inicialmente apontando para a direita */
+.seta {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+    transform: rotate(270deg);  /* Seta apontando para a direita inicialmente */
+}
+
+/* Quando a lista de membros for mostrada, a seta aponta para baixo */
+.seta.mostrar {
+    transform: rotate(360deg);  /* Seta apontando para baixo */
+}
+
+/* Inicialmente ocultar a lista de membros com opacidade e altura 0 */
+.membros-list {
+    padding-left: 0px;
+    display: block;  /* Mantenha o bloco para que a altura possa ser animada */
+    max-height: 0;  /* Altura máxima inicial 0 */
+    overflow: hidden;  /* Ocultar o conteúdo que exceder a altura */
+    opacity: 0;  /* Inicialmente invisível */
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Transições suaves */
+    max-width: 100%;
+}
+
+/* Quando a lista de membros estiver visível */
+.membros-list.visible {
+    max-height: 99999px; /* Defina uma altura máxima suficiente para a lista */
+    opacity: 1;  /* Tornar visível */
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.foto-container {
+    position: relative;
+    width: 300px; /* Ajuste para o tamanho desejado */
+    height: 300px;
+    text-align: center;
+}
+
+.foto-membro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid #0073e6; /* Adiciona uma borda colorida */
+    border-radius: 50%; /* Faz a borda ser arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Adiciona sombra */
+    transition: transform 0.3s ease; /* Efeito ao passar o mouse */
+}
+
+.foto-membro:hover {
+    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+}
+
+.foto-container::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 5px dashed #ff9900; /* Borda extra decorativa */
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.detalhes-container {
+    width: 70%;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .info-container {
+        flex-direction: column; /* Empilhar na vertical em telas menores */
+    }
+
+    .foto-container,
+    .detalhes-container {
+        width: 100%;
+    }
+
+    .detalhes-container {
+        padding-left: 0;
+    }
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 100%; /* Consistente com o layout */
+}
+
+.btn-next,
+.btn-prev {
+    padding: 10px 15px; /* Tamanho confortável */
+    font-size: 1em; /* Tamanho de texto original */
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover,
+.btn-prev:hover {
+    background-color: #005bb5;
+}
+
+.btn-next:disabled,
+.btn-prev:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

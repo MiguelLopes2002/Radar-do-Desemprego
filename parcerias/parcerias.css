@@ -1,0 +1,89 @@
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.parceiros-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.parceiro {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.parceiro:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.parceiro img {
+    width: 150px; /* Largura fixa */
+    height: 100px; /* Altura fixa */
+    object-fit: contain; /* Ajusta a imagem para caber dentro do espaço */
+    border-radius: 8px; /* Mantém os cantos arredondados */
+    margin: 0 auto; /* Centraliza a imagem dentro do card */
+    display: block; /* Garante que as imagens sejam exibidas como blocos */
+}
+
+.parceiro-nome {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: gray;
+}
+
+#parceiro-detalhes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes-cartao {
+    max-width: 800px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detalhes-cartao:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.detalhes-titulo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+}
+
+.detalhes-descricao {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha logo e texto de forma simétrica */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    flex: 1; /* Centraliza o texto ocupando espaço flexível */
+}
+
+.logo {
+    max-height: 60px; /* Ajusta o tamanho da logo */
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    display: flex;               /* Alinha os itens horizontalmente */
+    justify-content: center;     /* Centraliza os itens */
+    align-items: center;         /* Alinha os itens verticalmente */
+    gap: 20px;                   /* Espaçamento entre os links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Estilo do dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Alinhamento com a parte inferior do link */
+    left: 50%; /* Centraliza com base no link pai */
+    transform: translateX(-50%); /* Ajusta para ficar centralizado */
+    background-color: #444;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}

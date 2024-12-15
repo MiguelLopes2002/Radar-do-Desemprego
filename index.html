@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Radar do Desemprego</title>
+    <link rel="stylesheet" href="pagina_inicial/pagina_inicial.css">
+</head>
+
+<!---------------------------------------------------------------------------------------------------------------->
+<!-- header e nav -->
+<header>
+    <link rel="stylesheet" href="header_footer/header.css">
+    <div class="header-container">
+        <a href="index.html">
+            <img src="header_footer/logo/Newlogo_limpo.png" alt="Logo" class="logo">
+        </a>
+        <h1>RADAR DO DESEMPREGO</h1>
+    </div>
+</header>
+<nav>
+    <a href="index.html">Página inicial</a>
+    <a href="quem_somos.html">Quem somos</a>
+    <div class="dropdown">
+        <a href="#">Pesquisas</a>
+         <div class="dropdown-content">
+            <a href="#pesquisa1">Desocupação</a>
+            <a href="#pesquisa2">Sei lá</a>
+            <a href="#pesquisa3">Sei lá o quê</a>
+        </div>
+    </div>
+    <a href="publicacoes.html">Publicações</a>
+    <a href="parcerias.html">Associados</a>
+</nav>
+<!---------------------------------------------------------------------------------------------------------------->
+
+<body>
+
+    <main class="main">
+        <section class="slideshow-container">
+            <div class="slides" style="background-image: url('img/pesquisa1.jpg');">
+                <a href="#pesquisa1.html" style="color: white; text-decoration: none;">Pesquisa 1: Análise do Desemprego no Setor Industrial</a>
+            </div>
+            <div class="slides" style="background-image: url('img/pesquisa2.jpg');">
+                <a href="#pesquisa2.html" style="color: white; text-decoration: none;">Pesquisa 2: Efeitos do Desemprego em Famílias Brasileiras</a>
+            </div>
+            <div class="slides" style="background-image: url('img/pesquisa3.jpg');">
+                <a href="#pesquisa3.html" style="color: white; text-decoration: none;">Pesquisa 3: Tendências do Mercado de Trabalho em 2024</a>
+            </div>
+            <div class="slides" style="background-image: url('img/pesquisa4.jpg');">
+                <a href="#pesquisa4.html" style="color: white; text-decoration: none;">Pesquisa 4: Análise do Impacto do Desemprego por Faixa Etária</a>
+            </div>
+            <div class="slides" style="background-image: url('img/pesquisa5.jpg');">
+                <a href="#pesquisa5.html" style="color: white; text-decoration: none;">Pesquisa 5: Desemprego e Educação: Relações e Desafios</a>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1); resetAutoSlide()">&#10094;</a>
+            <a class="next" onclick="plusSlides(1); resetAutoSlide()">&#10095;</a>
+        </section>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1); resetAutoSlide()"></span>
+            <span class="dot" onclick="currentSlide(2); resetAutoSlide()"></span>
+            <span class="dot" onclick="currentSlide(3); resetAutoSlide()"></span>
+            <span class="dot" onclick="currentSlide(4); resetAutoSlide()"></span>
+            <span class="dot" onclick="currentSlide(5); resetAutoSlide()"></span>
+        </div>
+
+        <section class="sobre-nos">
+            <h2>Por que Estudar o Desemprego?</h2>
+            <p>O desemprego é um dos principais indicadores econômicos que afeta diretamente a vida de milhões de pessoas. No Radar do Desemprego, nosso objetivo é fornecer uma visão clara e precisa sobre as dinâmicas do desemprego, analisando seus impactos no setor industrial, nas famílias e na economia como um todo. Nossos estudos são divulgados para a sociedade, ajudando na construção de políticas públicas e decisões informadas.</p>
+            <a href="quem_somos.html" class="botao">Conheça Nossa Equipe</a>
+        </section>
+    </main>
+
+<!-- footer.html -->
+<footer>
+    <link rel="stylesheet" href="header_footer/footer.css">
+    <p>E-mail: contato@furg.br</p>
+    <p>&copy; 2024 Radar do Desemprego. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Tá bugada essa bosta
+    <script src="../header_footer/header_footer.js"></script>
+-->
+    <script src="pagina_inicial/pagina_inicial.js" defer></script>
+</body>
+</html>
