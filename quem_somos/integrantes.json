@@ -13,7 +13,7 @@
         "lattes": "http://lattes.cnpq.br/5163164382025877",
         "orcid": "",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/EduardoAndreTillmann.jpg"
+        "foto": "quem_somos/fotos/EduardoAndreTillmann.jpg"
     },
     {
         "nome": "Verislaine Thaiz de Souza Brito",
@@ -21,7 +21,7 @@
         "lattes": "http://lattes.cnpq.br/2147079729053127",
         "orcid": "",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/VerislaineThaizdeSouzaBrito.jpg"
+        "foto": "quem_somos/fotos/VerislaineThaizdeSouzaBrito.jpg"
     },
     {
         "nome": "Alisson Tallys Geraldo Fiorentin",
@@ -29,7 +29,7 @@
         "lattes": "http://lattes.cnpq.br/6468984762129815",
         "orcid": "https://orcid.org/0009-0002-7233-3640",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/AlissonTallysGeraldoFiorentin.gif"
+        "foto": "quem_somos/fotos/AlissonTallysGeraldoFiorentin.gif"
     },
     {
         "nome": "Camila Costa Ferreira",
@@ -37,7 +37,7 @@
         "lattes": "http://lattes.cnpq.br/1956624519378305",
         "orcid": "",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/CamilaCostaFerreira.gif"
+        "foto": "quem_somos/fotos/CamilaCostaFerreira.gif"
     },
     {
         "nome": "Larissa Castagna Gonçalves",
@@ -45,7 +45,7 @@
         "lattes": "http://lattes.cnpq.br/7941085713217690",
         "orcid": "",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/LarissaCastagnaGonçalves.jpg"
+        "foto": "quem_somos/fotos/LarissaCastagnaGonçalves.jpg"
     },
     {
         "nome": "Adelina Domiciana Bernardo Siluvádio",
@@ -53,6 +53,6 @@
         "lattes": "",
         "orcid": "",
         "ies": "Universidade Federal do Rio Grande - FURG",
-        "foto": "fotos/url_da_foto.jpg"
+        "foto": ""
     }
 ]
