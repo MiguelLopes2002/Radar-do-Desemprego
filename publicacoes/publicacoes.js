@@ -83,7 +83,7 @@ paginatePublications('reportPublications');
 
 async function loadPublications() {
     try {
-        const response = await fetch('publicacoes.json');
+        const response = await fetch('publicacoes/publicacoes.json');
         const data = await response.json();
         
         for (const category in data) {
