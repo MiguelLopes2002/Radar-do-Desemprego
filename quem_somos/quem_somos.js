@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentPage = 0;
     let membrosVisiveis = false;
 
-    fetch('quem_somos/integrantes.json') // Corrige o caminho
+    fetch('./quem_somos/integrantes.json') // Corrige o caminho
     .then(response => response.json())
     .then(data => {
         membros = data;
